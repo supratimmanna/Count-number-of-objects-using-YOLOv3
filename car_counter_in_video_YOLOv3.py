@@ -93,6 +93,7 @@ while (True):
         break
 # When everything done, release the capture
 cap.release()
+out.release()
 # finally, close the window
 cv2.destroyAllWindows()
 cv2.waitKey(1)
